@@ -1,113 +1,195 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Ron Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jet Ron - Portfolio</title>
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <style>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>My Portfolio<br /></h1>
-						<p>A showcase of my projects and abilities.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Ron Glomar</a>
-					</header>
+       .grid{
+           display: grid;
+           grid-template-columns: 10% 40% 40% 10%;
+           grid-template-rows: 7% 83% 5%;
+           width: 100vw;
+           height: 100vh;
+       }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://github.com/jetronglomar" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+       .item-home{
+           grid-column-start:2;
+           grid-column-end:3;
+           grid-row-start: 1;
+           grid-row-end: 2;
+           align-self: end;
+           justify-self: start;
+       }
 
-				<!-- Main -->
-					<div id="main">
+       .item-a{
+           grid-column-start:3;
+           grid-column-end:4;
+           grid-row-start: 1;
+           grid-row-end: 2;
+           align-self: center;
+           justify-self: end;
+       }
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Love to Hack and Learn<br /></a></h2>
-									<p>Web Developer | Mobile Application Developer | DevOps</p>
-								</header>
-								<a href="#" class="image main"><img src="images/cover2.jpg" alt="" /></a>
-							</article>
+       .item-b{
+           grid-column-start:2;
+           grid-column-end:3;
+           grid-row-start: 2;
+           grid-row-end: 3;
+           align-self: center;
+           justify-self: start;
+       }
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="#">Project 1:<br />
-										Black Pomodoro</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>A minimalist applciation that helps me focus while I am coding.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Source Code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Project 2:<br />
-										Event Attendance on Mobile</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>A mobile application for handling attendance on any event. I used React Native to develop this mobile application and I utilize QR technology for some features.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Source Code</a></li>
-									</ul>
-								</article>
-							</section>
+       .item-c{
+           grid-column-start:3;
+           grid-column-end:4;
+           grid-row-start: 2;
+           grid-row-end: 3;
+           align-self: center;
+           justify-self: center;
+       }
 
-					</div>
+       .item-d{
+           grid-column-start:2;
+           grid-column-end:4;
+           grid-row-start: 3;
+           grid-row-end: 4;
+           align-self: end;
+       }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">jetronglomar@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://github.com/jetronglomar" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+       body
+        {
+            font-family: Helvetica, Sans-Serif;
+            color: #191919;
+            background-color: #f7f5f7;
+        }
+
+        .topnav a{
+            text-decoration: none;
+        }
+        
+
+        .item-b h1{
+            font-size: 48pt;
+            color: #232323;
+        }
+
+        .item-b h4{
+            font-size: 24pt;
+            color: #232323;
+            font-weight: normal;
+        }
+
+        .item-b p{
+            font-size: 12pt;
+            color: #232323;
+        }
+
+        .nav-item{
+            padding-left:40px;
+            font-size: 12pt;
+            color: #232323;
+            font-weight: bold;
+        }
+
+        .nav-item > .active > a {
+            color:red !important;
+        }
+
+        .nav-home{
+            padding-top:10px;
+            font-weight: bold;
+            color: #94a6b3;
+            font-size: 24pt;
+        }
+
+        footer{
+            font-size: 12pt;
+            color: #232323;
+        }
+        
+        .footer_holder{
+            padding: 20px;
+        }
+
+        hr {
+            border-top: 1px solid #94a6b3;
+        }
+
+        .double-space {
+            line-height: 2;
+            position: relative; 
+            top: -.5em;
+        }
+
+    </style>
+
+<div class="grid">
+    <div class="topnav item-home">
+        <a href="#" class="nav-home">Portfolio</a>
+    </div>
+
+    <div class="topnav item-a">
+        <a class="nav-item active" style="color:#94a6b3;">About Me</a>
+        <a class="nav-item" href="#exp">Experience</a>
+        <a class="nav-item" href="#project">Projects</a>
+        <a class="nav-item" href="#contact">Contact Me</a>
+    </div>
 
 
-			</div>
+    <!-- Big Text Name with short description of self-->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <div class="about_me item-b">
+        <div class="personal_info">
+            <h1>Jet Ron Glomar</h1>
+            <h4>Software Developer</h4>
 
-	</body>
+            <p class="double-space" style="padding-top: 30px; padding-right: 210px; padding-bottom: 20px;">
+                I'm a software developer specialized in backend and mobile app development. I love to learn new stuffs and work on solutions to help people aid their processes. Want to know how may I help you on your project? Check out my past <span style="color:#94a6b3"><strong>projects</strong></span> and <span style="color:#94a6b3"><strong>online resume</strong></span>.
+            </p>
+
+            
+            <h4 style="padding-top: 30px;">Experience</h4>
+            <p style="padding-right: 200px; padding-top: 5px;">
+                Below are my work experiences on fulltime and freelance work.
+            </p>
+
+            <h3 style="padding-top: 30px;">Sr. Software Developer</h3>
+            <p style="padding-top: 5px;">National Grid Corporation of the Philippines</p>
+            <p  style="color:#94a6b3; padding-top: 5px;">Dec 2015 - Present</p>
+
+            <h3 style="padding-top: 30px;">Mobile App Developer</h3>
+            <p style="padding-top: 5px;">ISI - Philippines</p>
+            <p  style="color:#94a6b3; padding-top: 5px;">May - Sept 2015</p>
+
+            <h3 style="padding-top: 30px;">Project Manager</h3>
+            <p style="padding-top: 5px;">PUP QC - Software Research Group</p>
+            <p  style="color:#94a6b3; padding-top: 5px;">May 2014 - May 2015</p>
+        </div>
+    </div>
+
+    <!-- Put Mascott Here -->
+
+    <div class="main_image item-c">
+        <img src="assets/images/me.jpg" width="500px" alt="me as a cartoon"/>
+    </div>
+
+    <footer class="item-d">
+            <hr/>
+            
+        <div class="footer_holder">
+            <p style="color:#94a6b3"> © All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
 </html>
