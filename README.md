@@ -1,9 +1,10 @@
-# Hi, I'm Jet Ronrick T. Glomar 👋
+# Jet Ronrick T. Glomar
+**Full Stack Developer | Mobile & Web Application Specialist**
 
 ## About Me
-A Full Stack Developer with 10 years of experience building high-quality mobile and web applications. I specialize in creating innovative solutions for team-building experiences and enterprise systems. Currently working as a Full Stack Developer at Invite Japan and Part-time Software Engineer at Elite Search Commander.
+Full Stack Developer with 10 years of experience building high-quality mobile and web applications. I specialize in creating innovative solutions for team-building experiences and enterprise systems. Currently working as a Full Stack Developer at Invite Japan and Part-time Software Engineer at Elite Search Commander.
 
-## 💻 Skills & Technologies
+## Skills & Technologies
 
 **Languages:**  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -34,7 +35,9 @@ A Full Stack Developer with 10 years of experience building high-quality mobile 
 ![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white)
 ![Xcode](https://img.shields.io/badge/-Xcode-147EFB?style=flat&logo=xcode&logoColor=white)
 
-## 🚀 Featured Projects
+---
+
+## Featured Projects
 
 ### CabanaX 3D Configurator
 ![Project Screenshot](https://via.placeholder.com/800x400?text=CabanaX+3D+Configurator)
@@ -132,14 +135,14 @@ Developed a comprehensive ticketing system with cross-platform mobile apps and w
 
 ---
 
-## 📫 Connect With Me
+## Contact Information
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jetronglomar@gmail.com)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=react&logoColor=white)](#)
 
-📍 Quezon City, Philippines
+**Location:** Quezon City, Philippines
 
 ---
 
-⭐️ From [jetronglomar](https://github.com/jetronglomar)
+*Last updated: December 2025*
