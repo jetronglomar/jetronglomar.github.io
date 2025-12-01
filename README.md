@@ -1,9 +1,11 @@
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Jet 
+
 
 ## About Me
 [Brief introduction about yourself - 2-3 sentences about your background, interests, and what you're passionate about in tech]
 
-## 💻 Skills & Technologies
+
+## Skills & Technologies
 
 **Languages:**  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -20,7 +22,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### [Project Name 1]
 ![Project Screenshot](https://via.placeholder.com/800x400?text=Project+Screenshot)
@@ -73,10 +75,6 @@
 ## 📫 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](your-linkedin-url)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](your-twitter-url)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=react&logoColor=white)](your-portfolio-url)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 
 ---
-
-⭐️ From [YourGitHubUsername](https://github.com/YourGitHubUsername)
